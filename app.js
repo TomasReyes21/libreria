@@ -1,7 +1,7 @@
 console.clear();
 const argv = require("process").argv;
 const moduloProductos = require("./productos");
-require('colors');
+ require('colors'); 
 
 const comando = argv[2];
 let respuesta;
@@ -46,11 +46,11 @@ switch (comando) {
     moduloProductos.listar(respuesta);
     break;
 
-  case "editar":
+    case "editar":
     respuesta = moduloProductos.editar(+argv[3]);
     //moduloProductos.listar(respuesta);
     console.log(respuesta.green);
-    break;
+    break; 
 
   default:
     break;
