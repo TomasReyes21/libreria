@@ -48,7 +48,7 @@ switch (comando) {
 
     case "editar":
     respuesta = moduloProductos.editar(+argv[3]);
-    moduloProductos.listar(respuesta);
+    //moduloProductos.listar(respuesta);
     console.log(respuesta.green);
     break; 
 
