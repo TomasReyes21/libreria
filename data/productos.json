@@ -104,7 +104,7 @@
       "marca": "bic",
       "precio": 500,
       "descuento": 10,
-      "stock": true,
+      "stock": false,
       "categoria": "comercial"
    },
    {

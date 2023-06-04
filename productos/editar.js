@@ -1,5 +1,6 @@
 const { leerJSON, escribirJSON } = require("../data");
 const productos_db = leerJSON();
+
 const editar = function (id) {
     let  productoAModificar = productos_db.find(producto => producto.id === id)
     if (!productoAModificar) {
